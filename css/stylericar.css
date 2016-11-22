@@ -27,11 +27,11 @@
 	left: 771px;
             }
             #apDiv4 {
-	position: absolute;
+    position: absolute;
 	width: 123px;
-	height: 34px;
+	height: 20px;
 	z-index: 1;
-	left: 679px;
+	left: 660px;
 	top: 185px;
             }
             #apDiv5 {
@@ -181,12 +181,12 @@ div {
 	left: 729px;
 	top: 752px;
 }
-        #apDiv19 {
+         #apDiv19 {
 	position: absolute;
 	width: 138px;
 	height: 43px;
 	z-index: 8;
-	left: 560px;
+	left: 535px;
 	top: 191px;
 	color: #FFFFFF;
 }
@@ -195,7 +195,7 @@ div {
 	width: 39px;
 	height: 18px;
 	z-index: 9;
-	left: 523px;
+	left: 505px;
 	top: 184px;
 }
         .class body section article p {
@@ -261,6 +261,10 @@ div {
 	margin: auto;
 	position: relative;
 	color: #000;
+}
+#contador 
+{
+	margin-top: -6px;
 }
 /*ETIQUETAS*/
 body{
@@ -328,7 +332,7 @@ ul li
 	width: 90px;
 	background: #003f5e;
 	margin: 3px;
-	border-radius: 4px;
+	border-radius: 2px;
 	box-shadow: inset 0px 0px 10px white;
 	margin-top: 7px;
 }
@@ -481,7 +485,25 @@ article :hover {
 	
 }
 
-#autor {
+#uriel {
+	width:80px;
+	height:80px;
+	background:url('../img/uriel.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	display:box;
+	border:5px solid white;
+	border-radius:20px 20px 20px 20px;
+	box-shadow:0px 0px 10px black;
+	-webkit-border-radius:10px 10px 10px 10px;
+	-webkit-box-shadow:0px 0px 10px blue;
+	float:left;
+	margin:10px;
+	position:absolute;
+	transform:translate(-140px,0px);
+	-webkit-transform:translate(-140px,0px);
+}
+#alex {
 	width:80px;
 	height:80px;
 	background:url('../img/uriel.png');
